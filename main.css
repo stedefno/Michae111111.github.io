@@ -3,6 +3,7 @@
     left: 50%;
     transform: translate(-50%, -50%);
     top: 50%;
+    text-align: center;
 }
 .logo {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -12,4 +13,13 @@
 }
 .logo-blue {
     color: #3C78FF;
+}
+.cm-wrapper {
+    margin: 5%;
+}
+.coming-soon {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 75px;
+    color: #000;
+    display: inline-flex;
 }
