@@ -34,6 +34,9 @@ body {
     .coming-soon {
         font-size: 45px;
     }
+    .cm-wrapper {
+        margin: 0;
+    }
 }
 
 
