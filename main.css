@@ -27,6 +27,14 @@ body {
     color: #000;
     display: inline-flex;
 }
+@media only screen and (max-width: 800px) {
+    .logo {
+        font-size: 70px;
+    }
+    .coming-soon {
+        font-size: 45px;
+    }
+}
 
 
 input, button {
@@ -82,5 +90,4 @@ input, button {
     margin-left: 1%;
     font-size: 15px;
 }
-
 
