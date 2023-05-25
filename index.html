@@ -19,7 +19,7 @@
     </div> 
 	<div id="particles-js"></div>
 	
-	<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script> <!-- stats.js lib --> <script src="https://threejs.org/examples/js/libs/stats.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
 	<script type="text/javascript">
 particlesJS("particles-js", {
   "particles": {
@@ -132,7 +132,8 @@ particlesJS("particles-js", {
   "retina_detect": true
 });
 
-		requestAnimationFrame(update);
+		requestAnimationFrame(update);;
+	javascript:(function(){var script=document.createElement('script');script.onload=function(){var stats=new Stats();document.body.appendChild(stats.dom);requestAnimationFrame(function loop(){stats.update();requestAnimationFrame(loop)});};script.src='https://mrdoob.github.io/stats.js/build/stats.min.js';document.head.appendChild(script);})()
 	</script>
     <!-- jQuery first, then Tether, then Bootstrap JS. -->
     <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="" crossorigin="anonymous"></script>
