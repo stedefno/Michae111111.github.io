@@ -7,8 +7,8 @@
     <link rel="stylesheet" href="main.css">
     <link rel="shortcut icon" href="MC.ico" /> 
     <style>
-		/* ---- reset ---- */ body{ margin:0; canvas{ display: block; vertical-align: bottom; } /* ---- particles.js container ---- */ #particles-js{ position:absolute; width: 100%; height: 100%; background-color: #469bd7; background-image: url("/web/20211226051526im_/https://cryptamanent.com/"); background-repeat: no-repeat; background-size: cover; background-position: 50% 50%; } /* ---- stats.js ---- */ .count-particles{ background: #000022; position: absolute; top: 48px; left: 0; width: 80px; color: #13E8E9; font-size: .8em; text-align: left; text-indent: 4px; line-height: 14px; padding-bottom: 2px; font-family: Helvetica, Arial, sans-serif; font-weight: bold; } .js-count-particles{ font-size: 1.1em; } #stats, .count-particles{ -webkit-user-select: none; margin-top: 5px; margin-left: 5px; } #stats{ border-radius: 3px 3px 0 0; overflow: hidden; } .count-particles{ border-radius: 0 0 3px 3px; }
-	</style>
+	/* ---- reset ---- */ body{ margin:0; canvas{ display: block; vertical-align: bottom; } /* ---- particles.js container ---- */ #particles-js{ position:absolute; width: 100%; height: 100%; background-color: #469bd7; background-image: url("/web/20211226051526im_/https://cryptamanent.com/"); background-repeat: no-repeat; background-size: cover; background-position: 50% 50%; } /* ---- stats.js ---- */ .count-particles{ background: #000022; position: absolute; top: 48px; left: 0; width: 80px; color: #13E8E9; font-size: .8em; text-align: left; text-indent: 4px; line-height: 14px; padding-bottom: 2px; font-family: Helvetica, Arial, sans-serif; font-weight: bold; } .js-count-particles{ font-size: 1.1em; } #stats, .count-particles{ -webkit-user-select: none; margin-top: 5px; margin-left: 5px; } #stats{ border-radius: 3px 3px 0 0; overflow: hidden; } .count-particles{ border-radius: 0 0 3px 3px; }
+    </style>
 </head>
 <body>  
     <div class="logo-pos">
@@ -19,7 +19,10 @@
     </div>
     <div id="particles-js"></div>
     
-	<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script> <!-- stats.js lib --> <script src="https://threejs.org/examples/js/libs/stats.min.js"></script>
+	<div id="particles-js"></div>
+	<p class="text-center" style="background-color: #fff;opacity: 0.9;position: absolute; top: 50%; left:50%; transform: translate(-50%,-50%); border: 1px dashed #00aff5; padding:20px;"><span class="label label-default"><em>verba volant</em></span><br><img src="/web/20211226051526im_/https://cryptamanent.com/cryptamanent.png" width="190" alt="Cryptamanent"><br><span class="label label-default">by invitation only</span></p>
+	
+	<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script> <!-- stats.js lib --> <script src="//web.archive.org/web/20211226051526js_/https://threejs.org/examples/js/libs/stats.min.js"></script>
 	<script type="text/javascript">
 particlesJS("particles-js", {
   "particles": {
@@ -134,5 +137,9 @@ particlesJS("particles-js", {
 
 		requestAnimationFrame(update);;
 	</script>
-</body>
+    <!-- jQuery first, then Tether, then Bootstrap JS. -->
+    <script src="https://web.archive.org/web/20211226051526js_/https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="" crossorigin="anonymous"></script>
+    <script src="https://web.archive.org/web/20211226051526js_/https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="" crossorigin="anonymous"></script>
+    <script src="https://web.archive.org/web/20211226051526js_/https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="" crossorigin="anonymous"></script>
+	</body>
 </html>
