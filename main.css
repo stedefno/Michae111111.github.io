@@ -21,7 +21,7 @@ body {
 .coming-soon {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 75px;
-    color: #fff;
+    color: #fff; 
     display: inline-flex;
 }
 @media only screen and (max-width: 800px) {
